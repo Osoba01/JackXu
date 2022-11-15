@@ -7,13 +7,28 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="2DTransformation\Views\CompositeTransformView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="2DTransformation\Views\MatrixTransformClassView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="2DTransformation\Views\MetrixTransformView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="2DTransformation\Views\PerpendicularLineView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="2DTransformation\Views\ScaleTransformView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="2DTransformation\Views\TransfermationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="2DTransformation\Views\TranslateTransformView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GraphicBasic2D\Views\BezierCurvesView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="GraphicBasic2D\Views\Chart2DResizableCanvasView.xaml.cs">
@@ -31,6 +46,9 @@
     <Compile Update="GraphicBasic2D\Views\LineInCustomSystemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="GraphicBasic2D\Views\PolyLineView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="GraphicBasic2D\Views\ScaleInCustomSysView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -42,13 +60,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="2DTransformation\Views\CompositeTransformView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="2DTransformation\Views\MatrixTransformClassView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="2DTransformation\Views\MetrixTransformView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="2DTransformation\Views\PerpendicularLineView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="2DTransformation\Views\ScaleTransformView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="2DTransformation\Views\TransfermationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="2DTransformation\Views\TranslateTransformView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GraphicBasic2D\Views\BezierCurvesView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GraphicBasic2D\Views\Chart2DResizableCanvasView.xaml">
@@ -64,6 +97,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GraphicBasic2D\Views\LineInCustomSystemView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GraphicBasic2D\Views\PolyLineView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GraphicBasic2D\Views\ScaleInCustomSysView.xaml">

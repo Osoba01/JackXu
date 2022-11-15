@@ -42,6 +42,7 @@ namespace JackXu.WPF._2DTransformation.ViewModels
                 RotateCommand.RaiseCanExecuteChange();
             }
         }
+        
         private double _m21;
         public double M21
         {

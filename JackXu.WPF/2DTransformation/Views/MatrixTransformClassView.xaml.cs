@@ -24,5 +24,17 @@ namespace JackXu.WPF._2DTransformation.Views
         {
             InitializeComponent();
         }
+
+        private void BtnApply_Click(object sender, RoutedEventArgs e)
+        {
+            Matrix m=new Matrix();
+            m.M11= double.Parse(tbM11.Text);
+            m.M12= double.Parse(tbM12.Text);
+            m.M21=double.Parse(tbM21.Text);
+            m.M22= double.Parse(tbM22.Text);
+            m.OffsetX=double.Parse(tbOffsetX.Text);
+            m.OffsetY=double.Parse(tbOffsetY.Text);
+            matrixTransform.Matrix = m;
+        }
     }
 }

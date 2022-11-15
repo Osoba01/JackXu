@@ -7,6 +7,9 @@
              xmlns:local="clr-namespace:JackXu.WPF._2DTransformation.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+
+   
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
@@ -14,8 +17,12 @@
         </Grid.ColumnDefinitions>
 
         <ListBox SelectionChanged="sidebar_selectedChanged" SelectionMode="Single" x:Name="sidebar" Margin="0">
-            <hm:NavButton Text="Metrix Transform" NavUri="/2DTransformation/Views/MetrixTransformView.xaml"/>
-            <hm:NavButton Text="Perpendicaular Line" NavUri="/2DTransformation/Views/PerpendicularLineView.xaml"/>
+            <hm:NavButton Text="Metrix Transform        " NavUri="/2DTransformation/Views/MetrixTransformView.xaml"/>
+            <hm:NavButton Text="Perpendicaular Line     " NavUri="/2DTransformation/Views/PerpendicularLineView.xaml"/>
+            <hm:NavButton Text="MatrixTransform Class" NavUri="/2DTransformation/Views/MatrixTransformClassView.xaml"/>
+            <hm:NavButton Text="Scale Transform        " NavUri="/2DTransformation/Views/ScaleTransformView.xaml"/>
+            <hm:NavButton Text="Translate Transform     " NavUri="/2DTransformation/Views/TranslateTransformView.xaml"/>
+            <hm:NavButton Text="Composite Trabsform     " NavUri="/2DTransformation/Views/CompositeTransformView.xaml"/>
         </ListBox>
         <Frame  Grid.Column="1" x:Name="navframe" NavigationUIVisibility="Hidden" Background="#e9ecef"/>
     </Grid>

@@ -18,7 +18,8 @@
             <hm:NavButton Text="Chart 2D" NavUri="/GraphicBasic2D/Views/Chart2DSysView.xaml"/>
             <hm:NavButton Text="Resizable 2D Chart" NavUri="/GraphicBasic2D/Views/Chart2DResizableCanvasView.xaml"/>
             <hm:NavButton Text="LineDashStyle" NavUri="/GraphicBasic2D/Views/LineDashStyleView.xaml"/>
-
+            <hm:NavButton Text="Polyline" NavUri="/GraphicBasic2D/Views/PolyLineView.xaml"/>
+            <hm:NavButton Text="Bezier Curve" NavUri="/GraphicBasic2D/Views/BezierCurvesView.xaml"/>
         </ListBox>
         <Frame  Grid.Column="1" x:Name="navframe" NavigationUIVisibility="Hidden" Background="#e9ecef"/>
        

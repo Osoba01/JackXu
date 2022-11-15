@@ -1,7 +1,12 @@
 ﻿
-
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\App.xaml;;
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\CompositeTransformView.xaml;;
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\MatrixTransformClassView.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\MetrixTransformView.xaml;;
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\PerpendicularLineView.xaml;;
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\ScaleTransformView.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\TransfermationView.xaml;;
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\TranslateTransformView.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\GraphicBasic2D\Views\Chart2DResizableCanvasView.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\GraphicBasic2D\Views\Chart2DSysView.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\GraphicBasic2D\Views\GraphicBasic2DView.xaml;;
@@ -13,5 +18,6 @@ FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\MainWindow.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\Main\Views\HomeView.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\Main\Views\StartupWindow.xaml;;
 FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\Themes\Generic.xaml;;
-FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\2DTransformation\Views\PerpendicularLineView.xaml;;
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\GraphicBasic2D\Views\PolyLineView.xaml;;
+FC:\Users\kelly.osoba\source\repos\JackXu\JackXu.WPF\GraphicBasic2D\Views\BezierCurvesView.xaml;;
 
